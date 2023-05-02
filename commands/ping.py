@@ -9,5 +9,5 @@ plugin = lightbulb.Plugin("ping")
 async def ping(ctx: lightbulb.Context) -> None:
     await ctx.respond("Pong!")
 
-def load(client: lightbulb.BotApp) -> None:
-    client.add_plugin(plugin)
+def load(bot):
+    bot.add_plugin(plugin)
