@@ -1,2 +1,0 @@
-hikari[speedups]
-hikari-lightbulb
