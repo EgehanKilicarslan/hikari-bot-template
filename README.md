@@ -14,7 +14,7 @@ import lightbulb
 import toolbox
 from settings import * #Change * to what you want in settings.py
 
-plugin = lightbulb.Plugin("lock")
+plugin = lightbulb.Plugin("test")
 
 @plugin.command()
 @lightbulb.command("test", "description")
