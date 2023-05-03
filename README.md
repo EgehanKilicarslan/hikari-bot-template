@@ -19,7 +19,7 @@ plugin = lightbulb.Plugin("test")
 @plugin.command()
 @lightbulb.command("test", "description")
 @lightbulb.implements(lightbulb.SlashCommand)
-async def lock(ctx: lightbulb.Context):
+async def test(ctx: lightbulb.Context):
     await ctx.respond("Test")
 
 def load(bot):
