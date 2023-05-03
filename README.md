@@ -8,7 +8,8 @@
 ### You have a discord bot now
 
 # Command Template
-```import hikari
+```
+import hikari
 import lightbulb
 import toolbox
 from settings import * #Change * to what you want in settings.py
@@ -22,4 +23,5 @@ async def lock(ctx: lightbulb.Context):
     await ctx.respond("Test")
 
 def load(bot):
-    bot.add_plugin(plugin)```
+    bot.add_plugin(plugin)
+```
